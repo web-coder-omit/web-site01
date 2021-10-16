@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  text-decoration: none;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+
+}
+bodey{
+  background: #ffffff;
+}
+/*header-start*/
+.header-responsive-button{
+  display: none;
+}
+.main-header{
+  background:url(../imgs/2.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  height: 795px;
+}
+.header-logo img{
+  width:100%;
+}
+.header-logo{
+  width:190px;
+  height: 40px;
+  margin-top: 20px;
+}
+.header-top-box{
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+.header-manue ul{
+  list-style: none;
+  display: flex;
+}
+.header-manue ul li a{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  display: block;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.header-manue ul li a:hover{
+color:#ffc200;
+}
+.header-search{
+}
+.header-search i{
+  font-size: 30px;
+  margin-top: 25px;
+  color:white;
+}
+.header-text h1{
+  color:#ffc200;
+  font-size: 120px;
+  font-weight: 400;
+  font-family: 'Grand Hotel', cursive;
+  text-transform: capitalize;
+}
+.header-text{
+  float:right;
+  padding-top:120px;
+}
+.header-text p{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-size: 24px;
+ max-width:500px;
+}
+.header-text button{
+  width:250px;
+  height: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+  background: #ffc200;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+/*header-end*/
+/*section-01-start*/
+.section01-text{
+  text-align: center;
+}
+.section01-text h1{
+  text-transform: capitalize;
+  font-size: 70px;
+  font-weight: 500;
+  font-family: 'Grand Hotel', cursive;
+  margin-top: 140px;
+}
+.section01-text p{
+  font-size: 25px;
+  margin-bottom: 73px;
+}
+.section01-parents{
+  text-align: center;
+  margin-bottom: 230px;
+}
+.section01-parents p{
+ max-width:320px;
+  margin:0 auto;
+}
+.section01-parents h2{
+  text-transform: capitalize;
+  font-family: 'Grand Hotel', cursive;
+  margin-top: 10px;
+}
+.section01-inner-child-imgs01{
+  background: url(../imgs/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ width:240px;
+ height: 240px;
+ border-radius: 100%;
+  margin:0 auto;
+}
+.section01-inner-child-imgs02{
+  background: url(../imgs/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:240px;
+  height: 240px;
+  border-radius: 100%;
+  margin:0 auto;
+}
+.section01-inner-child-imgs03{
+  background: url(../imgs/5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:240px;
+  height: 240px;
+  border-radius: 100%;
+  margin:0 auto;
+}
+  /*section-01-end*/
+  /*section-02-start*/
+  .section02-main-part{
+    background:url(../imgs/7.png);
+    background-size: cover;
+    max-width: 100%;
+    height:auto;
+  }
+  .section02-child01{
+    position: relative;
+  }
+  .section02-inner-child-imgs{
+    background:url(../imgs/8.png);
+    max-width:470px;
+    height: 470px;
+    background-size: cover;
+    background-position:center;
+  }
+  .section02-inner-chid-text{
+    color:white;
+  }
+  .section02-inner-chid-text h1{
+    color:#ffc200;
+    font-size: 100px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Grand Hotel', cursive;
+    margin-bottom: 20px;
+  }
+  .section02-inner-chid-text p{
+   max-width:400px;
+    margin-bottom: 25px;
+  }
+  .section02-inner-chid-text button{
+    width:240px;
+    height: 60px;
+    overflow:none;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background:#ffc200;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .section02-parent{
+    padding-bottom: 80px;
+  }
+  .section02-child02{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+
+  /*section-02-end*/
+/*section-03-start*/
+.section03-main-part{
+  background:url(../imgs/9.png);
+  width:100%;
+  height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section03-text{
+  text-align: center;
+}
+.section03-text h1{
+  color:#ffc200;
+  font-size: 100px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Grand Hotel', cursive;
+  padding-top:90px;
+}
+.section03-text p{
+  color:white;
+ max-width:600px;
+  margin:0 auto;
+}
+.section03-paren{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:100px 0 180px;
+}
+.section03-paren > div{
+  color:white;
+  border:4px solid white;
+  padding:0;
+  width:200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.section03-paren > div span{
+  display: block;
+  text-align: center;
+}
+.section03-paren >div h4{
+  text-align: center;
+}
+.section03-paren > div{
+position: relative;
+}
+.section03-paren >div span{
+  color:white;
+ position: absolute;
+ top:40%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ font-size: 50px;
+ font-weight: 600;
+}
+.section03-paren >div h4{
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  top:64%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:#ffc200;
+}
+/*section-3-end*/
+/*section-4-start*/
+.section04-parents{
+  display: flex;
+  justify-content: space-around;
+  padding-top:90px;
+}
+.section04-main-part{
+  background:url(../imgs/10.png);
+  width:100%;
+  height:680px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+.section04-child01{
+  color:white;
+  display: flex;
+  align-items: flex-end;
+
+}
+.section04-child02{
+  background:url(../imgs/11.png);
+  background-repeat: no-repeat;
+  width: 470px;
+  height: 470px;
+  border-radius: 100%;
+}
+.section04-inner-chil-text h1{
+  text-transform: capitalize;
+  color:#ffc200;
+  font-size: 100px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Grand Hotel', cursive;
+}
+.section04-inner-chil-text p{
+ max-width:400px;
+}
+.section04-inner-chil-text button{
+  width:240px;
+  height: 60px;
+  overflow:none;
+  border:none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background:#ffc200;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+/*section-4-end*/
+/*section-5-start*/
+.section05-main-part{
+  background:url(../imgs/12.png);
+  width:100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:250px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section05-main-part p{
+  max-width:900px;
+  font-size: 44px;
+  color:#333333;
+}
+.section05-main-part h4{
+  font-size: 74px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Grand Hotel', cursive;
+}
+/*section-5-end*/
+/*section-6-start*/
+.section06-main-part{
+  background:url(../imgs/13.png);
+  width:100%;
+  height:700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding:150px 0 230px;
+ 
+}
+.section06-text h2{
+  color:#ffc200;
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Grand Hotel', cursive;
+}
+.section06-text p{
+  margin: 0 auto;
+  max-width:500px;
+  font-weight: 600;
+}
+.section06-from{
+
+  padding-top:30px;
+}
+.section06-from form input{
+  padding:8px 80px 8px 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border:none;
+  outline: none;
+}
+.section06-from form button{
+  background:#ffc200;
+  padding:10px 25px 10px 25px;
+  border:none;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/*section-6-end*/
+/*footer-start*/
+.footer-main-part{
+  padding:250px 0;
+  background:#303030;
+  color:white;
+}
+.footer-main-part h5{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+.footer-main-part a{
+  margin-bottom: 5px;
+  display: block;
+  color:white;
+  text-transform:capitalize;
+}
+.footer-main-part ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  padding:0;
+}
+.footer-main-part ul li{
+  border:1px solid white;
+  width:40px;
+  height: 40px;
+  margin: 10px;
+  border-radius:100%;
+  background:white;
+}
+.footer-main-part ul li a{
+  margin-top: 5px;
+  font-size: 20px;
+}
+.footer-main-part ul li a i{
+  color:#303030;
+}
+/*footer-end*/
